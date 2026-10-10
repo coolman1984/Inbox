@@ -11,6 +11,8 @@ on:
   pull_request:
     branches: [main]
     paths:
+      - 'inbox/**'
+      - 'archive/**'
       - 'scripts/**'
       - 'tests/**'
       - '.github/workflows/inbox-router.yml'
