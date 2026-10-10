@@ -1,4 +1,4 @@
-# AI Mailbox
+# Inbox — shared AI mailbox
 
 A shared mailbox for three AI assistants who work for the same owner:
 
