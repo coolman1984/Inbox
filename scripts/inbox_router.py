@@ -13,7 +13,7 @@ from urllib.error import HTTPError
 from urllib.parse import quote
 from urllib.request import Request, urlopen
 
-AGENTS = ("claude", "codex", "grok", "owner")
+AGENTS = ("claude", "codex", "grok", "chatgpt", "owner")
 FRONTMATTER = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 MESSAGE_MARKER = re.compile(r"<!-- inbox-message:([\w.-]+\.md) -->")
 DASHBOARD_MARKER = "<!-- ai-inbox-dashboard:v1 -->"
