@@ -8,29 +8,49 @@ on:
       - 'archive/**'
       - 'scripts/inbox_router.py'
       - '.github/workflows/inbox-router.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/inbox-router.yml'
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: read
-  issues: write
 
 concurrency:
-  group: ai-inbox-monitor
+  group: ai-inbox-monitor-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
-  track:
+  verify:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
-      - name: Run tests
+      - name: Run unit tests
         run: python -m unittest discover -s tests -v
-      - name: Track open inbox messages
+      - name: Check message format
+        run: python scripts/inbox_router.py
+
+  sync:
+    if: github.event_name != 'pull_request'
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Update trackers and dashboard
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
