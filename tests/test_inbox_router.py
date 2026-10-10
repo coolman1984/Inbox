@@ -51,7 +51,7 @@ class Tests(unittest.TestCase):
         tmp = tempfile.TemporaryDirectory()
         self.addCleanup(tmp.cleanup)
         self.root = Path(tmp.name)
-        for directory in ("inbox/claude", "inbox/codex", "inbox/grok", "inbox/owner", "archive"):
+        for directory in ("inbox/claude", "inbox/codex", "inbox/grok", "inbox/owner", "inbox/chatgpt", "archive"):
             (self.root / directory).mkdir(parents=True)
         self.path = self.root / "inbox/claude" / NAME
         self.path.write_text(SAMPLE, encoding="utf-8")
@@ -60,6 +60,16 @@ class Tests(unittest.TestCase):
     def test_valid_message(self):
         m = parse_message(self.path, self.root)
         self.assertEqual((m.sender, m.recipient, m.status), ("grok", "claude", "open"))
+
+    def test_chatgpt_coordinator_messages(self):
+        self.path.write_text(SAMPLE.replace("from: grok", "from: chatgpt"), encoding="utf-8")
+        self.assertEqual(parse_message(self.path, self.root).sender, "chatgpt")
+
+    def test_chatgpt_recipient(self):
+        target = self.root / "inbox/chatgpt" / NAME
+        self.path.rename(target)
+        target.write_text(SAMPLE.replace("to: claude", "to: chatgpt"), encoding="utf-8")
+        self.assertEqual(parse_message(target, self.root).recipient, "chatgpt")
 
     def test_wrong_folder_rejected(self):
         self.path.write_text(SAMPLE.replace("to: claude", "to: owner"), encoding="utf-8")
