@@ -28,33 +28,29 @@ riser/Phonk_Riser_(1)_Sample.wav | https://commons.wikimedia.org/wiki/File:Phonk
 keyboard/Soft_laptop_keyboard-wxA-2.wav | https://commons.wikimedia.org/wiki/File:Soft_laptop_keyboard-wxA-2.wav | Mrakash1 (Wikimedia Commons) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
 music/Komiku_-_45_-_The_Horizon.ogg | https://commons.wikimedia.org/wiki/File:Komiku_-_45_-_The_Horizon.ogg | Komiku (Wikimedia Commons) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
 music/Komiku_-_50_-_Chillin_Poupi.ogg | https://commons.wikimedia.org/wiki/File:Komiku_-_50_-_Chillin_Poupi.ogg | Komiku (Wikimedia Commons) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
-
-# NOT INCLUDED - Freesound.org (all CC0, chosen but NOT downloaded: original files need a logged-in Freesound account).
-# To add them: sign in to freesound.org, open each link, press Download (original file), put it in the folder named first.
-# folder | page URL | author | original format | duration
-whoosh | https://freesound.org/people/ch_ase/sounds/423798/ | ch_ase | wav | 2.5 s | CC0 1.0
-whoosh | https://freesound.org/people/DJT4NN3R/sounds/449996/ | DJT4NN3R | wav | 2.7 s | CC0 1.0
-whoosh | https://freesound.org/people/huw2k8/sounds/459941/ | huw2k8 | wav | 1.9 s | CC0 1.0
-hit | https://freesound.org/people/AudioPapkin/sounds/746474/ | AudioPapkin | wav | 3.5 s | CC0 1.0
-hit | https://freesound.org/people/SoundDesignForYou/sounds/697758/ | SoundDesignForYou | wav | 2.5 s | CC0 1.0
-hit | https://freesound.org/people/JeffPearson/sounds/850040/ | JeffPearson | mp3 | 2.7 s | CC0 1.0
-riser | https://freesound.org/people/syntheffects/sounds/685256/ | syntheffects | wav | 3.0 s | CC0 1.0
-riser | https://freesound.org/people/SynthXperiments/sounds/698114/ | SynthXperiments | wav | 6.7 s | CC0 1.0
-riser | https://freesound.org/people/xkeril/sounds/789100/ | xkeril | wav | 12.0 s | CC0 1.0
-glass | https://freesound.org/people/fleurescence/sounds/573160/ | fleurescence | wav | 2.0 s | CC0 1.0
-glass | https://freesound.org/people/trexlasso/sounds/629997/ | trexlasso | wav | 0.6 s | CC0 1.0
-glass | https://freesound.org/people/ani_music/sounds/198401/ | ani_music | wav | 1.6 s | CC0 1.0
-keyboard | https://freesound.org/people/jaziel_.arroyo/sounds/850586/ | jaziel_.arroyo | wav | 14.4 s | CC0 1.0
-keyboard | https://freesound.org/people/Mediasaur/sounds/788932/ | Mediasaur | wav | 0.2 s | CC0 1.0
-keyboard | https://freesound.org/people/Code_Redder/sounds/537618/ | Code_Redder | ogg | 0.4 s | CC0 1.0
-clock | https://freesound.org/people/blukotek/sounds/412751/ | blukotek | wav | 7.9 s | CC0 1.0
-clock | https://freesound.org/people/Spyboticer/sounds/407187/ | Spyboticer | wav | 13.3 s | CC0 1.0
-clock | https://freesound.org/people/sjnewton/sounds/253692/ | sjnewton | mp3 | 7.1 s | CC0 1.0
-paper | https://freesound.org/people/eyesonlegs/sounds/464302/ | eyesonlegs | wav | 1.6 s | CC0 1.0
-paper | https://freesound.org/people/semccab/sounds/154403/ | semccab | wav | 1.4 s | CC0 1.0
-paper | https://freesound.org/people/LilMati/sounds/397552/ | LilMati | wav | 1.7 s | CC0 1.0
-roomtone | https://freesound.org/people/BenDrain/sounds/488045/ | BenDrain | wav | 25.8 s | CC0 1.0
-roomtone | https://freesound.org/people/leonelmail/sounds/329533/ | leonelmail | mp3 | 17.3 s | CC0 1.0
-roomtone | https://freesound.org/people/danhelbling/sounds/272395/ | danhelbling | wav | 29.1 s | CC0 1.0
-music | https://freesound.org/people/Bertsz/sounds/717326/ | Bertsz | mp3 | 56.5 s | CC0 1.0
-music | https://freesound.org/people/holizna/sounds/852234/ | holizna | wav | 66.5 s | CC0 1.0
+paper/154403__semccab__paper-slide.wav | https://freesound.org/people/semccab/sounds/154403/ | semccab (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+glass/198401__ani_music__ani-wine-glass-hard.wav | https://freesound.org/people/ani_music/sounds/198401/ | ani_music (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+clock/253692__sjnewton__ticking_clock.mp3 | https://freesound.org/people/sjnewton/sounds/253692/ | sjnewton (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+roomtone/272395__danhelbling__bathroom-room-tone.wav | https://freesound.org/people/danhelbling/sounds/272395/ | danhelbling (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+roomtone/329533__leonelmail__room-tone-in-an-apartment-living-room-2.mp3 | https://freesound.org/people/leonelmail/sounds/329533/ | leonelmail (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+paper/397552__lilmati__page-turn-05.wav | https://freesound.org/people/LilMati/sounds/397552/ | LilMati (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+clock/407187__spyboticer__ticking-clock.wav | https://freesound.org/people/Spyboticer/sounds/407187/ | Spyboticer (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+clock/412751__blukotek__ticking-of-the-clock-01.wav | https://freesound.org/people/blukotek/sounds/412751/ | blukotek (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+whoosh/423798__ch_ase__little-whoosh-3.wav | https://freesound.org/people/ch_ase/sounds/423798/ | ch_ase (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+whoosh/449996__djt4nn3r__whoosh_short_mid.wav | https://freesound.org/people/DJT4NN3R/sounds/449996/ | DJT4NN3R (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+whoosh/459941__huw2k8__whoosh.wav | https://freesound.org/people/huw2k8/sounds/459941/ | huw2k8 (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+paper/464302__eyesonlegs__paperslide.wav | https://freesound.org/people/eyesonlegs/sounds/464302/ | eyesonlegs (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+roomtone/488045__bendrain__room_tone_01.wav | https://freesound.org/people/BenDrain/sounds/488045/ | BenDrain (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+keyboard/537618__code_redder__keyboard-press-sfx.ogg | https://freesound.org/people/Code_Redder/sounds/537618/ | Code_Redder (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+glass/573160__fleurescence__wine-glass-clink.wav | https://freesound.org/people/fleurescence/sounds/573160/ | fleurescence (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+glass/629997__trexlasso__glass-clink.wav | https://freesound.org/people/trexlasso/sounds/629997/ | trexlasso (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+riser/685256__syntheffects__riser-sound-effect-short.wav | https://freesound.org/people/syntheffects/sounds/685256/ | syntheffects (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+hit/697758__sounddesignforyou__metlimpt_metal-resonant-scrape-impact_sdfy_metal-resonant.wav | https://freesound.org/people/SoundDesignForYou/sounds/697758/ | SoundDesignForYou (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+riser/698114__synthxperiments__short-riser-very-reverbed.wav | https://freesound.org/people/SynthXperiments/sounds/698114/ | SynthXperiments (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+music/717326__bertsz__lush-synthesize-soundscape.mp3 | https://freesound.org/people/Bertsz/sounds/717326/ | Bertsz (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+hit/746474__audiopapkin__riser-hit-sfx-069.wav | https://freesound.org/people/AudioPapkin/sounds/746474/ | AudioPapkin (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+keyboard/788932__mediasaur__key_press.wav | https://freesound.org/people/Mediasaur/sounds/788932/ | Mediasaur (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+riser/789100__xkeril__long-bright-riser.wav | https://freesound.org/people/xkeril/sounds/789100/ | xkeril (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+hit/850040__jeffpearson__metal-impact.mp3 | https://freesound.org/people/JeffPearson/sounds/850040/ | JeffPearson (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+keyboard/850586__jaziel_arroyo__laptop-keyboard-typing.wav | https://freesound.org/people/jaziel_.arroyo/sounds/850586/ | jaziel_.arroyo (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+music/852234__holizna__chevron-lo-fi-loop-bbmaj-130bpm.wav | https://freesound.org/people/holizna/sounds/852234/ | holizna (Freesound.org) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
