@@ -1,0 +1,60 @@
+# sound-kit SOURCES - format: file name | page URL | author | licence
+# Every file below is CC0 1.0 (public domain dedication). Licence verified on each page on 2026-10-10.
+
+kenney/kenney_casino-audio.zip | https://kenney.nl/assets/casino-audio | Kenney (kenney.nl) | CC0 1.0 (Creative Commons Zero)
+kenney/kenney_digital-audio.zip | https://kenney.nl/assets/digital-audio | Kenney (kenney.nl) | CC0 1.0 (Creative Commons Zero)
+kenney/kenney_impact-sounds.zip | https://kenney.nl/assets/impact-sounds | Kenney (kenney.nl) | CC0 1.0 (Creative Commons Zero)
+kenney/kenney_interface-sounds.zip | https://kenney.nl/assets/interface-sounds | Kenney (kenney.nl) | CC0 1.0 (Creative Commons Zero)
+kenney/kenney_rpg-audio.zip | https://kenney.nl/assets/rpg-audio | Kenney (kenney.nl) | CC0 1.0 (Creative Commons Zero)
+kenney/kenney_sci-fi-sounds.zip | https://kenney.nl/assets/sci-fi-sounds | Kenney (kenney.nl) | CC0 1.0 (Creative Commons Zero)
+kenney/kenney_ui-audio.zip | https://kenney.nl/assets/ui-audio | Kenney (kenney.nl) | CC0 1.0 (Creative Commons Zero)
+whoosh/SWSH_Whoosh 4 (ID 1796)_BigSoundBank.com.wav | https://bigsoundbank.com/whoosh-4-s1796.html | Joseph SARDIN (BigSoundBank.com) | CC0 1.0 (public domain) - https://bigsoundbank.com/licenses.html
+whoosh/SWSH_Whoosh 8 (ID 1801)_BigSoundBank.com.wav | https://bigsoundbank.com/whoosh-8-s1801.html | Joseph SARDIN (BigSoundBank.com) | CC0 1.0 (public domain) - https://bigsoundbank.com/licenses.html
+whoosh/SWSH_Whoosh 3 (ID 1795)_BigSoundBank.com.wav | https://bigsoundbank.com/whoosh-3-s1795.html | Joseph SARDIN (BigSoundBank.com) | CC0 1.0 (public domain) - https://bigsoundbank.com/licenses.html
+hit/METLImpt_Metal mailbox 1 (ID 1527)_BigSoundBank.com.wav | https://bigsoundbank.com/metal-mailbox-1-s1527.html | Joseph SARDIN (BigSoundBank.com) | CC0 1.0 (public domain) - https://bigsoundbank.com/licenses.html
+hit/EXPLReal_Explosion 2 (ID 1808)_BigSoundBank.com.wav | https://bigsoundbank.com/explosion-2-s1808.html | Joseph SARDIN (BigSoundBank.com) | CC0 1.0 (public domain) - https://bigsoundbank.com/licenses.html
+glass/GLASImpt_Cheers champagne flute 1 (ID 1335)_BigSoundBank.com.wav | https://bigsoundbank.com/cheers-champagne-flute-1-s1335.html | Joseph SARDIN (BigSoundBank.com) | CC0 1.0 (public domain) - https://bigsoundbank.com/licenses.html
+glass/GLASImpt_Cheers big red wine glass 2 (ID 1333)_BigSoundBank.com.wav | https://bigsoundbank.com/cheers-big-red-wine-glass-2-s1333.html | Joseph SARDIN (BigSoundBank.com) | CC0 1.0 (public domain) - https://bigsoundbank.com/licenses.html
+glass/GLASImpt_Cheers champagne flute 3 (ID 1337)_BigSoundBank.com.wav | https://bigsoundbank.com/cheers-champagne-flute-3-s1337.html | Joseph SARDIN (BigSoundBank.com) | CC0 1.0 (public domain) - https://bigsoundbank.com/licenses.html
+keyboard/CMPTKey_Slow macbook keyboard 1 (ID 1726)_BigSoundBank.com.wav | https://bigsoundbank.com/slow-macbook-keyboard-1-s1726.html | Joseph SARDIN (BigSoundBank.com) | CC0 1.0 (public domain) - https://bigsoundbank.com/licenses.html
+keyboard/CMPTKey_Slow macbook pro keyboard 1 (ID 1728)_BigSoundBank.com.wav | https://bigsoundbank.com/slow-macbook-pro-keyboard-1-s1728.html | Joseph SARDIN (BigSoundBank.com) | CC0 1.0 (public domain) - https://bigsoundbank.com/licenses.html
+clock/CLOCKMech_Clock (ID 0007)_BigSoundBank.com.wav | https://bigsoundbank.com/clock-s0007.html | Joseph SARDIN (BigSoundBank.com) | CC0 1.0 (public domain) - https://bigsoundbank.com/licenses.html
+clock/CLOCKTick_Tic tac mechanical alarm clock 3 (ID 2656)_BigSoundBank.com.wav | https://bigsoundbank.com/tic-tac-mechanical-alarm-clock-3-s2656.html | Joseph SARDIN (BigSoundBank.com) | CC0 1.0 (public domain) - https://bigsoundbank.com/licenses.html
+clock/CLOCKTick_Stopwatch 1 (ID 2137)_BigSoundBank.com.wav | https://bigsoundbank.com/stopwatch-1-s2137.html | Joseph SARDIN (BigSoundBank.com) | CC0 1.0 (public domain) - https://bigsoundbank.com/licenses.html
+paper/PAPRHndl_Pages that turn 5 (ID 2212)_BigSoundBank.com.wav | https://bigsoundbank.com/pages-that-turn-5-s2212.html | Joseph SARDIN (BigSoundBank.com) | CC0 1.0 (public domain) - https://bigsoundbank.com/licenses.html
+paper/PAPRHndl_Pages that turn 9 (ID 2216)_BigSoundBank.com.wav | https://bigsoundbank.com/pages-that-turn-9-s2216.html | Joseph SARDIN (BigSoundBank.com) | CC0 1.0 (public domain) - https://bigsoundbank.com/licenses.html
+paper/PAPRHndl_Great page that turns 1 (ID 0362)_BigSoundBank.com.wav | https://bigsoundbank.com/great-page-that-turns-1-s0362.html | DenisChardonnet (BigSoundBank.com) | CC0 1.0 (public domain) - https://bigsoundbank.com/licenses.html
+riser/Phonk_Riser_(1)_Sample.wav | https://commons.wikimedia.org/wiki/File:Phonk_Riser_(1)_Sample.wav | UnKnownrNone (Wikimedia Commons) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+keyboard/Soft_laptop_keyboard-wxA-2.wav | https://commons.wikimedia.org/wiki/File:Soft_laptop_keyboard-wxA-2.wav | Mrakash1 (Wikimedia Commons) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+music/Komiku_-_45_-_The_Horizon.ogg | https://commons.wikimedia.org/wiki/File:Komiku_-_45_-_The_Horizon.ogg | Komiku (Wikimedia Commons) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+music/Komiku_-_50_-_Chillin_Poupi.ogg | https://commons.wikimedia.org/wiki/File:Komiku_-_50_-_Chillin_Poupi.ogg | Komiku (Wikimedia Commons) | CC0 1.0 - http://creativecommons.org/publicdomain/zero/1.0/
+
+# NOT INCLUDED - Freesound.org (all CC0, chosen but NOT downloaded: original files need a logged-in Freesound account).
+# To add them: sign in to freesound.org, open each link, press Download (original file), put it in the folder named first.
+# folder | page URL | author | original format | duration
+whoosh | https://freesound.org/people/ch_ase/sounds/423798/ | ch_ase | wav | 2.5 s | CC0 1.0
+whoosh | https://freesound.org/people/DJT4NN3R/sounds/449996/ | DJT4NN3R | wav | 2.7 s | CC0 1.0
+whoosh | https://freesound.org/people/huw2k8/sounds/459941/ | huw2k8 | wav | 1.9 s | CC0 1.0
+hit | https://freesound.org/people/AudioPapkin/sounds/746474/ | AudioPapkin | wav | 3.5 s | CC0 1.0
+hit | https://freesound.org/people/SoundDesignForYou/sounds/697758/ | SoundDesignForYou | wav | 2.5 s | CC0 1.0
+hit | https://freesound.org/people/JeffPearson/sounds/850040/ | JeffPearson | mp3 | 2.7 s | CC0 1.0
+riser | https://freesound.org/people/syntheffects/sounds/685256/ | syntheffects | wav | 3.0 s | CC0 1.0
+riser | https://freesound.org/people/SynthXperiments/sounds/698114/ | SynthXperiments | wav | 6.7 s | CC0 1.0
+riser | https://freesound.org/people/xkeril/sounds/789100/ | xkeril | wav | 12.0 s | CC0 1.0
+glass | https://freesound.org/people/fleurescence/sounds/573160/ | fleurescence | wav | 2.0 s | CC0 1.0
+glass | https://freesound.org/people/trexlasso/sounds/629997/ | trexlasso | wav | 0.6 s | CC0 1.0
+glass | https://freesound.org/people/ani_music/sounds/198401/ | ani_music | wav | 1.6 s | CC0 1.0
+keyboard | https://freesound.org/people/jaziel_.arroyo/sounds/850586/ | jaziel_.arroyo | wav | 14.4 s | CC0 1.0
+keyboard | https://freesound.org/people/Mediasaur/sounds/788932/ | Mediasaur | wav | 0.2 s | CC0 1.0
+keyboard | https://freesound.org/people/Code_Redder/sounds/537618/ | Code_Redder | ogg | 0.4 s | CC0 1.0
+clock | https://freesound.org/people/blukotek/sounds/412751/ | blukotek | wav | 7.9 s | CC0 1.0
+clock | https://freesound.org/people/Spyboticer/sounds/407187/ | Spyboticer | wav | 13.3 s | CC0 1.0
+clock | https://freesound.org/people/sjnewton/sounds/253692/ | sjnewton | mp3 | 7.1 s | CC0 1.0
+paper | https://freesound.org/people/eyesonlegs/sounds/464302/ | eyesonlegs | wav | 1.6 s | CC0 1.0
+paper | https://freesound.org/people/semccab/sounds/154403/ | semccab | wav | 1.4 s | CC0 1.0
+paper | https://freesound.org/people/LilMati/sounds/397552/ | LilMati | wav | 1.7 s | CC0 1.0
+roomtone | https://freesound.org/people/BenDrain/sounds/488045/ | BenDrain | wav | 25.8 s | CC0 1.0
+roomtone | https://freesound.org/people/leonelmail/sounds/329533/ | leonelmail | mp3 | 17.3 s | CC0 1.0
+roomtone | https://freesound.org/people/danhelbling/sounds/272395/ | danhelbling | wav | 29.1 s | CC0 1.0
+music | https://freesound.org/people/Bertsz/sounds/717326/ | Bertsz | mp3 | 56.5 s | CC0 1.0
+music | https://freesound.org/people/holizna/sounds/852234/ | holizna | wav | 66.5 s | CC0 1.0
