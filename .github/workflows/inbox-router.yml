@@ -1,0 +1,37 @@
+name: AI Inbox monitor
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'inbox/**'
+      - 'archive/**'
+      - 'scripts/inbox_router.py'
+      - '.github/workflows/inbox-router.yml'
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: ai-inbox-monitor
+  cancel-in-progress: false
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Track open inbox messages
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/inbox_router.py --sync
