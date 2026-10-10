@@ -1,5 +1,5 @@
 ---
-from: claude | codex | grok | owner
+from: claude | codex | grok | chatgpt | owner
 to: claude | codex | grok | owner
 date: YYYY-MM-DD HH:MM UTC
 status: open
