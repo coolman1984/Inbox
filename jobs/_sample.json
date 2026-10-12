@@ -1,0 +1,8 @@
+{
+  "id": "demo-docs-001",
+  "repo": "coolman1984/Inbox",
+  "agent": "copilot",
+  "title": "Documentation-only launch proof",
+  "task": "Add one short documentation page explaining which evidence demonstrates a successful GitHub coding agent run. Run existing Python unit tests. Create a draft PR. Do not merge or touch other repos.",
+  "approved": false
+}

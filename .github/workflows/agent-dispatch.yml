@@ -1,0 +1,53 @@
+name: AI Inbox agent dispatch
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/dispatch_agent_tasks.py"
+      - "tests/test_agent_dispatch.py"
+      - "jobs/**"
+      - ".github/workflows/agent-dispatch.yml"
+  push:
+    branches: [main]
+    paths:
+      - "jobs/**"
+      - "scripts/dispatch_agent_tasks.py"
+      - ".github/workflows/agent-dispatch.yml"
+  schedule:
+    - cron: "23 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: inbox-agent-dispatch
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Run entire Inbox test suite
+        run: python -m unittest discover -s tests -v
+      - name: Validate queued jobs without external calls
+        run: python scripts/dispatch_agent_tasks.py
+
+  dispatch:
+    if: github.event_name != 'pull_request'
+    needs: check
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Send at most one approved task through GitHub
+        env:
+          AGENT_DISPATCH_USER_TOKEN: ${{ secrets.AGENT_DISPATCH_USER_TOKEN }}
+        run: python scripts/dispatch_agent_tasks.py --execute
