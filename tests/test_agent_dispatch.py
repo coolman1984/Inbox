@@ -73,6 +73,16 @@ class AgentDispatchTests(unittest.TestCase):
         with self.assertRaises(DispatchError):
             validate_job(job(repo="evil-org/other"), "smoke-001.json")
 
+    def test_reject_non_string_repo_and_agent(self):
+        payload = job()
+        payload["repo"] = []
+        with self.assertRaises(DispatchError):
+            validate_job(payload, "smoke-001.json")
+        payload = job()
+        payload["agent"] = {}
+        with self.assertRaises(DispatchError):
+            validate_job(payload, "smoke-001.json")
+
     def test_reject_unapproved_string(self):
         payload = job()
         payload["approved"] = "true"
