@@ -45,9 +45,9 @@ def validate_job(data: object, filename: str) -> dict:
         raise DispatchError(f"{filename}: invalid job id")
     if filename != job_id + ".json":
         raise DispatchError(f"{filename}: file name must match job id")
-    if data["repo"] not in ALLOWED_REPOS:
+    if not isinstance(data["repo"], str) or data["repo"] not in ALLOWED_REPOS:
         raise DispatchError(f"{filename}: target repository is not allowlisted")
-    if data["agent"] not in AGENTS:
+    if not isinstance(data["agent"], str) or data["agent"] not in AGENTS:
         raise DispatchError(f"{filename}: unknown agent")
     if type(data["approved"]) is not bool:
         raise DispatchError(f"{filename}: approved must be a boolean")
