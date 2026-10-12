@@ -1,0 +1,2 @@
+file | source URL | author | licence
+YOUSEF_QA_REPORT.md, test_log.txt, grok_code_review.md, screens/*.jpg | generated locally (Playwright screenshots of coolman1984/Yousef-Transportation v1.1.1 with throwaway test data) | Grok Bot (grok-4.7 for code review) | owner-provided project, internal use
